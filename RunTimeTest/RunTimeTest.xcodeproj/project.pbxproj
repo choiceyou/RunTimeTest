@@ -15,7 +15,7 @@
 		4946BD822060917E00082D13 /* RunTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946BD812060917E00082D13 /* RunTimeTestTests.m */; };
 		4946BD8D2060917E00082D13 /* RunTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946BD8C2060917E00082D13 /* RunTimeTestUITests.m */; };
 		49BB211B2061ECF200E0DE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB211A2061ECF200E0DE6E /* ViewController.m */; };
-		49BB212320620A6200E0DE6E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB212220620A6100E0DE6E /* Person.m */; };
+		49F022D220626EFC00F723A0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F022D120626EFC00F723A0 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		4946BD8E2060917E00082D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BB21192061ECF200E0DE6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49BB211A2061ECF200E0DE6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		49BB212120620A6100E0DE6E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		49BB212220620A6100E0DE6E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		49F022D020626EFC00F723A0 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		49F022D120626EFC00F723A0 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		4946BD5C2060917E00082D13 = {
 			isa = PBXGroup;
 			children = (
+				49F022CF20626EFC00F723A0 /* Classes */,
 				4946BD672060917E00082D13 /* RunTimeTest */,
 				4946BD802060917E00082D13 /* RunTimeTestTests */,
 				4946BD8B2060917E00082D13 /* RunTimeTestUITests */,
@@ -104,7 +105,6 @@
 		4946BD672060917E00082D13 /* RunTimeTest */ = {
 			isa = PBXGroup;
 			children = (
-				49BB212020620A6100E0DE6E /* RunTimeTest */,
 				49BB21192061ECF200E0DE6E /* ViewController.h */,
 				49BB211A2061ECF200E0DE6E /* ViewController.m */,
 				4946BD682060917E00082D13 /* AppDelegate.h */,
@@ -136,13 +136,13 @@
 			path = RunTimeTestUITests;
 			sourceTree = "<group>";
 		};
-		49BB212020620A6100E0DE6E /* RunTimeTest */ = {
+		49F022CF20626EFC00F723A0 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49BB212120620A6100E0DE6E /* Person.h */,
-				49BB212220620A6100E0DE6E /* Person.m */,
+				49F022D020626EFC00F723A0 /* Person.h */,
+				49F022D120626EFC00F723A0 /* Person.m */,
 			);
-			path = RunTimeTest;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +280,7 @@
 			files = (
 				4946BD782060917E00082D13 /* main.m in Sources */,
 				49BB211B2061ECF200E0DE6E /* ViewController.m in Sources */,
-				49BB212320620A6200E0DE6E /* Person.m in Sources */,
+				49F022D220626EFC00F723A0 /* Person.m in Sources */,
 				4946BD6A2060917E00082D13 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,7 +447,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4Y22J2KN7;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -462,7 +462,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4Y22J2KN7;
 				INFOPLIST_FILE = RunTimeTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xfg.RunTimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
