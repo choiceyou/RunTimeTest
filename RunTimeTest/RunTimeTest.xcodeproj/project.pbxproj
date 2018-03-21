@@ -14,8 +14,8 @@
 		4946BD782060917E00082D13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946BD772060917E00082D13 /* main.m */; };
 		4946BD822060917E00082D13 /* RunTimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946BD812060917E00082D13 /* RunTimeTestTests.m */; };
 		4946BD8D2060917E00082D13 /* RunTimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4946BD8C2060917E00082D13 /* RunTimeTestUITests.m */; };
-		49BB21182061EC9900E0DE6E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB21152061EC9900E0DE6E /* Person.m */; };
 		49BB211B2061ECF200E0DE6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB211A2061ECF200E0DE6E /* ViewController.m */; };
+		49BB211F2061EE4500E0DE6E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 49BB211E2061EE4400E0DE6E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,10 +50,10 @@
 		4946BD882060917E00082D13 /* RunTimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4946BD8C2060917E00082D13 /* RunTimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeTestUITests.m; sourceTree = "<group>"; };
 		4946BD8E2060917E00082D13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49BB21132061EC9900E0DE6E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		49BB21152061EC9900E0DE6E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		49BB21192061ECF200E0DE6E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		49BB211A2061ECF200E0DE6E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49BB211D2061EE4400E0DE6E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		49BB211E2061EE4400E0DE6E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		4946BD5C2060917E00082D13 = {
 			isa = PBXGroup;
 			children = (
-				49BB21122061EC9900E0DE6E /* Class */,
+				49BB211C2061EE4400E0DE6E /* Classes */,
 				4946BD672060917E00082D13 /* RunTimeTest */,
 				4946BD802060917E00082D13 /* RunTimeTestTests */,
 				4946BD8B2060917E00082D13 /* RunTimeTestUITests */,
@@ -136,13 +136,13 @@
 			path = RunTimeTestUITests;
 			sourceTree = "<group>";
 		};
-		49BB21122061EC9900E0DE6E /* Class */ = {
+		49BB211C2061EE4400E0DE6E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				49BB21132061EC9900E0DE6E /* Person.h */,
-				49BB21152061EC9900E0DE6E /* Person.m */,
+				49BB211D2061EE4400E0DE6E /* Person.h */,
+				49BB211E2061EE4400E0DE6E /* Person.m */,
 			);
-			path = Class;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,8 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4946BD782060917E00082D13 /* main.m in Sources */,
-				49BB21182061EC9900E0DE6E /* Person.m in Sources */,
 				49BB211B2061ECF200E0DE6E /* ViewController.m in Sources */,
+				49BB211F2061EE4500E0DE6E /* Person.m in Sources */,
 				4946BD6A2060917E00082D13 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
